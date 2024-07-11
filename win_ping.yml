@@ -6,3 +6,6 @@
   tasks:
     - name: Ping Windows machine
       win_ping:
+      register: result
+    - debug:
+        var: result
