@@ -1,6 +1,6 @@
 ---
 - name: Ping Windows hosts
-  hosts: windows2016
+  hosts: windows2019
   gather_facts: no
 
   tasks:
